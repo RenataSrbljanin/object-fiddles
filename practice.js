@@ -219,7 +219,7 @@ methodCollection.alertHello = function(){
 	alert('hello');
 };
 methodCollection.logHello = function(){
-	console.log('hell
+	console.log('hello')
 
 //Now call your alertHello and logHello methods.
 
