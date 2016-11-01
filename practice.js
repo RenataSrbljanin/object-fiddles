@@ -288,3 +288,15 @@ function bindCard(person, card){
 }
 
 var entity1 = bindCard(firstPerson, firstCard);
+	
+	//the same function, but throuhg the for in loop:
+	
+function merge(person, card){
+	var personCard = {};
+	for (var x in person){personCard[x]=person[x]}
+	for (var y in card){personCard[y]= card[y]}
+	return personCard;
+}
+
+var entity2 = merge(firstPerson, firstCard);
+console.log("entitet2: \n ", entity2);
